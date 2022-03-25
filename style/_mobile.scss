@@ -1,0 +1,52 @@
+@media screen and (max-width: 767.98px) {
+  /* ============================================ */
+  /*                     .HEAD                    */
+  /* ============================================ */
+  // .head-toggle
+  .head-toggle {
+    display: block;
+  }
+
+  //   .head-menu
+  .head-menu {
+    width: calc(100% - 4rem);
+
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+
+    z-index: 5;
+    background: #3a3053;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    // 1
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      a {
+        color: white;
+      }
+    }
+
+    // 2
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      button {
+        color: white;
+      }
+    }
+  }
+}
