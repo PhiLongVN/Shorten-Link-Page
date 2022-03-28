@@ -316,7 +316,7 @@ main {
   position: absolute;
   left: calc(0% + 3rem);
   top: 75%;
-  color: rgba(231, 58, 58, 0.687);
+  color: rgba(255, 0, 0, 0.979);
   opacity: 0;
   visibility: hidden;
 }
@@ -375,7 +375,7 @@ main {
 
 .sec2 .sec2-tableLink .link-block button {
   padding: 0.5rem 1.5rem;
-  background: #2bd1d1;
+  background: #0edfdf;
   color: white;
   font-weight: 700;
   text-align: center;
